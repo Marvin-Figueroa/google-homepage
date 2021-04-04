@@ -7,7 +7,7 @@ body {
 .header {
   display: flex;
   justify-content: flex-end;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .header-nav {
@@ -17,23 +17,25 @@ body {
   align-items: center;
   padding-left: 0;
   margin: 0 20px;
-  width: 14rem;
+  width: 13rem;
+  font-size: 88%;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .profile-photo {
-  width: 35px;
+  width: 32px;
   height: auto;
   border-radius: 50%;
 }
 
 .profile-photo:hover,
 .profile-photo:focus {
-  box-shadow: 0 0 0 3px lightgrey;
+  box-shadow: 0 0 0 3px #d9d9d9;
 }
 
 .apps-menu {
-  width: 38px;
-  height: 38px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   background-color: transparent;
   display: flex;
@@ -47,14 +49,14 @@ body {
 }
 
 .apps-menu:hover {
-  background-color: lightgray;
+  background-color: #f1f1f1;
   cursor: pointer;
 }
 
 .header-nav a:link,
 .header-nav a:visited {
   text-decoration: none;
-  color: black;
+  color: #444;
   font-size: 95%;
 }
 
@@ -64,6 +66,7 @@ body {
 }
 
 /* Main Section */
+
 .search-icon-svg,
 .microphone-icon-svg {
   width: 23px;
@@ -86,8 +89,9 @@ body {
 }
 
 main {
-  width: 60%;
-  margin: 50px auto;
+  max-width: 620px;
+  min-width: 480px;
+  margin: 15px auto;
 }
 
 .logo {
@@ -114,7 +118,7 @@ main {
 }
 
 .search-buttons {
-  width: 55%;
+  width: 325px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
