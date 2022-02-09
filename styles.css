@@ -1,6 +1,10 @@
 body {
   margin: 0;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+*::before, *::after, button {
+  font-family: 'Roboto', sans-serif;
 }
 
 /* NavBar Header Section */
